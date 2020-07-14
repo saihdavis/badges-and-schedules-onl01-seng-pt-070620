@@ -24,4 +24,6 @@ end
 end
 
 def assign_rooms(attendees)
+  puts room
+end
   
