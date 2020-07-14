@@ -1,4 +1,5 @@
-require "pry"binding.pry
+require "pry"
+binding.pry
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
