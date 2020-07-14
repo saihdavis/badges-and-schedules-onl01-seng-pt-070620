@@ -1,4 +1,4 @@
-require "pry"
+require "pry"binding.pry
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
@@ -9,7 +9,7 @@ def batch_badge_creator(attendees)
     badge_maker(attendee)
   end
 end
-binding.pry
+
 def assign_rooms(attendees)
   attendees.each.with_index do |attendee, index|
     "Hello, #{attendee}! You'll be assigned to room #{index + 1}!"
