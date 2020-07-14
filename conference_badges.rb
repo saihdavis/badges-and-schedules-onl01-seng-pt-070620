@@ -24,4 +24,4 @@ end
   assign_rooms(attendee). each do |room|
     puts room
 end
-  
+end
