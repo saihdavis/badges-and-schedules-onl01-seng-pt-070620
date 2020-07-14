@@ -23,7 +23,7 @@ def printer(attendee)
 end
 end
 
-def assign_rooms(attendees)
+def assign_rooms(attendee)
   puts room
 end
   
